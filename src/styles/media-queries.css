@@ -1,0 +1,37 @@
+@media screen and (max-width: 1015px) {
+    .offer__list-item {
+        width: auto !important;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1016px) and (max-width: 1140px) {
+    .header__search {
+        width: auto !important;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .playlist {
+        display: none;
+    }
+
+    .playlist-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .sidebar {
+        width: 342px;
+    }
+
+    .offer__list-item {
+        grid-template-columns: 1fr;
+    }
+
+    .offer__scroll-container {
+        overflow-y: visible;
+    }
+
+}
