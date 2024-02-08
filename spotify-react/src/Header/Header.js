@@ -9,15 +9,15 @@ const Header = () => {
         <nav className="header__navigation">
                 <div className="navigation">
                     <button className="arrow-left">
-                        <img src={smallLeft} alt="">
+                        <img src={smallLeft} alt=""/>
                     </button>
                     <button className="arrow-right">
-                        <img src={smallRight} alt="">
+                        <img src={smallRight} alt=""/>
                     </button>
 
                 </div>
                     <div className="header__search">
-                        <img src={search} alt=" ">
+                        <img src={search} alt=" "/>
                         <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
                     </div>
 
