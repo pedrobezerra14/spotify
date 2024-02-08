@@ -68,4 +68,4 @@
 
 # 🔗Link para acessar o deploy no GitHub
 
-[]()
+[Deploy do Projeto Spotify](https://pedrobezerra14.github.io/spotify/)
